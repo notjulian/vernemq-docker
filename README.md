@@ -4,3 +4,4 @@ This is a custom build of docker-vernemq, derived from the docker builds. Since 
 
 This custom build allows to use newer versions of vernemq under Apache2 license.
 
+Latest build available here: https://github.com/notjulian/vernemq-docker/pkgs/container/vernemq-docker
