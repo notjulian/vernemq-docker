@@ -55,7 +55,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'build-and-push.yml',
-              ref: 'main',
+              ref: 'master',
               inputs: {
                 version: '${{ steps.latest.outputs.version }}',
                 tag_latest: 'true'
