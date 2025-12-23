@@ -12,6 +12,17 @@ on:
         required: false
         default: true
         type: boolean
+  workflow_call:
+    inputs:
+      version:
+        description: 'VerneMQ version to build'
+        required: true
+        type: string
+      tag_latest:
+        description: 'Also tag this build as latest'
+        required: false
+        default: true
+        type: boolean
 
 env:
   REGISTRY: ghcr.io
